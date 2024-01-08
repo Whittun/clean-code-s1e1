@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-  .main-header { text-align: center;
+  .main-header { 
+    text-align: center;
   }
 }
 .todo {
