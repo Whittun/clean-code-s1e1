@@ -40,10 +40,12 @@
   margin: 0;
   padding: 0px;
 }
-.todo__list-item, .todo__title {
+.todo__list-item, 
+.todo__title {
   list-style: none;
 }
-.todo__input,.todo__button{
+.todo__input,
+.todo__button {
   outline: none;
 }
 .todo__button {
@@ -90,7 +92,8 @@
   display: block;
   margin: 0 0 20px;
 }
-.todo__top-wrapper .todo__input{
+.todo__top-wrapper 
+.todo__input {
   width: 318px;
 }
 
@@ -111,13 +114,15 @@
 .todo__input[type="checkbox"] {
   margin: 0 10px;
 }
-.todo__list-item .todo__label {
+.todo__list-item 
+.todo__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.todo__list-item .todo__input[type="text"] {
+.todo__list-item 
+.todo__input[type="text"] {
   width: 226px;
 }
 .todo__delete-icon {
@@ -130,21 +135,25 @@
 }
 
 /* Completed */
-.todo__completed-list .todo__label {
+.todo__completed-list 
+.todo__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.todo__list-item .todo__input[type=text] {
+.todo__list-item 
+.todo__input[type=text] {
   display: none;
 }
 
-.todo__list-item--editMode .todo__input[type=text] {
+.todo__list-item--editMode 
+.todo__input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.todo__list-item--editMode .todo__label {
+.todo__list-item--editMode 
+.todo__label {
   display: none;
 }
