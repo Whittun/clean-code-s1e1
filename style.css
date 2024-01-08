@@ -1,18 +1,22 @@
 /* Basic Style */
+
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
 }
+
 .main-header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .main-header__image {
   width: 100%;
 }
+
 .main-header__link {
   font-family: fantasy, cursive;
 }
@@ -22,32 +26,39 @@
     text-align: center;
   }
 }
+
 .todo {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .todo__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .todo__top-wrapper {
   display: flex;
 }
+
 .todo__incomplete-list,
 .todo__completed-list {
   margin: 0;
   padding: 0px;
 }
+
 .todo__list-item, 
 .todo__title {
   list-style: none;
 }
+
 .todo__input,
 .todo__button {
   outline: none;
 }
+
 .todo__button {
   background: none;
   border: 0px;
@@ -57,10 +68,13 @@
   font-family: lato, sans-serif;
   cursor: pointer;
 }
+
 .todo__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .todo__title,
 .todo__add-label {
   color: #333;
@@ -71,6 +85,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .todo__input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -83,21 +98,25 @@
   font-family: lato, sans-serif;
   color: #888;
 }
+
 .todo__input[type="text"]:focus {
   color: #333;
 }
 
 /* New Task */
+
 .todo__add-label {
   display: block;
   margin: 0 0 20px;
 }
+
 .todo__top-wrapper 
 .todo__input {
   width: 318px;
 }
 
 /* Task list */
+
 .todo__list-item {
   overflow: hidden;
   padding: 20px 0;
@@ -107,6 +126,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .todo__list-item > * {
   vertical-align: middle;
 }
@@ -114,6 +134,7 @@
 .todo__input[type="checkbox"] {
   margin: 0 10px;
 }
+
 .todo__list-item 
 .todo__label {
   padding-left: 10px;
@@ -121,20 +142,24 @@
   font-size: 18px;
   width: 226px;
 }
+
 .todo__list-item 
 .todo__input[type="text"] {
   width: 226px;
 }
+
 .todo__delete-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .todo__delete-icon:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .todo__completed-list 
 .todo__label {
   text-decoration: line-through;
@@ -142,6 +167,7 @@
 }
 
 /* Edit Task */
+
 .todo__list-item 
 .todo__input[type=text] {
   display: none;
